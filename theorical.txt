@@ -35,3 +35,32 @@ The static method can be used to create utility functions.
 We can use this keyword to call a static method within another static method.
 We cannot use this keyword directly to call a static method within the non-static method. In such case, we 
 can call the static method either using the class name or as the property of the constructor.
+
+JavaScript Inheritance
+The JavaScript inheritance is a mechanism that allows us to create new classes on the basis of already 
+existing classes.
+Using class inheritance, a class can inherit all the methods and properties of another class.
+
+The JavaScript extends keyword is used to create a child class on the basis of a parent class. It facilitates 
+child class to acquire all the properties and behavior of its parent class.
+
+Points to remember
+It maintains an IS-A relationship.
+The extends keyword is used in class expressions or class declarations.
+Using extends keyword, we can acquire all the properties and behavior of the inbuilt object as well as custom classes.
+We can also use a prototype-based approach to achieve inheritance.
+
+Uses of Inheritance
+Since a child class can inherit all the functionalities of the parent's class, this allows code reusability.
+Once a functionality is developed, you can simply inherit it. No need to reinvent the wheel. This allows for 
+cleaner code and easier to maintain.
+Since you can also add your own functionalities in the child class, you can inherit only the useful 
+functionalities and define other required features.
+
+Uses of Inheritance: 
+
+Since a child class can inherit all the functionalities of the parent's class, this allows code reusability.
+Once a functionality is developed, you can simply inherit it. No need to reinvent the wheel. This allows for 
+cleaner code and easier to maintain.
+Since you can also add your own functionalities in the child class, you can inherit only the useful 
+functionalities and define other required features.
